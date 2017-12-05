@@ -15,7 +15,7 @@ public class Func1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_func1);
     }
     public void Func1(View view){
-        EditText edButton = (EditText) findViewById(R.id.button)
+        EditText edButton = (EditText) findViewById(R.id.button);
         getIntent().putExtra("FUNC_BUTTON",button);
         setResult(RESULT_OK,getIntent());
         finish();
