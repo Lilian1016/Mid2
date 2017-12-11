@@ -16,10 +16,6 @@ public class Func2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_func2);
     }
-    public void Func2(View view){
-        EditText edButton = (EditText) findViewById(button2);
-        getIntent().putExtra("FUNC_BUTTON",button2);
-        setResult(RESULT_OK,getIntent());
-        finish();
 
-    }}
+
+    }

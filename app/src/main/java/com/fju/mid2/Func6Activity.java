@@ -15,9 +15,4 @@ public class Func6Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_func6);
     }
-    public void Func6(View view){
-        EditText edButton = (EditText) findViewById(button6);
-        getIntent().putExtra("FUNC_BUTTON",button6);
-        setResult(RESULT_OK,getIntent());
-        finish();
-}}
+}

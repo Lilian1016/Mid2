@@ -15,9 +15,4 @@ public class Func7Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_func7);
     }
-    public void Func7(View view){
-        EditText edButton = (EditText) findViewById(button7);
-        getIntent().putExtra("FUNC_BUTTON",button7);
-        setResult(RESULT_OK,getIntent());
-        finish();
-}}
+}

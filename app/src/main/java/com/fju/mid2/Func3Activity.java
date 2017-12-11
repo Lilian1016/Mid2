@@ -18,20 +18,7 @@ public class Func3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_func3);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == FUNC_BUTTON){
-            if (resultCode == RESULT_OK){
 
-            }
         }
-    }
 
-    public void Func3(View view) {
-        EditText edButton = (EditText) findViewById(button3);
-        getIntent().putExtra("FUNC_BUTTON", button3);
-        setResult(RESULT_OK, getIntent());
-        finish();
-    }
-}
+
